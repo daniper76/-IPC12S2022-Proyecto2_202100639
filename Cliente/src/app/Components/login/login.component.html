@@ -1,0 +1,44 @@
+
+<body>
+    <div class="container">
+        <div class="row">
+            <link rel="stylesheet" href="login.component.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fredoka+One&family=Noto+Sans+JP:wght@100;300&family=Noto+Sans+Vai&display=swap" rel="stylesheet">
+            <div class="col-sm-12 d-flex justify-content-center mt-5">
+                <h1 style="font-family: 'Fredoka One', cursive; font-size:97px ;">  <span class="badge bg-dark " >Login</span></h1>
+            </div>
+            
+            <div class="col-sm-16 d-flex justify-content-center mt-5">
+                <div class="card">
+                    <div class="card-header" style="font-family: 'Fredoka One', cursive; font-size:27px; background-color:beige;">
+                        Bienvenido
+                    </div>
+                    <div class="card-body" style="background-color:rgba(0, 251, 255, 0.977) ;">
+                        
+                        <div class="mb-3">
+                            
+                            <label for="exampleFormControlInput1" style="font-family: 'Fredoka One', cursive; font-size:20px" class="form-label">Usuario</label>
+                            <input style="background-color:beige" type="text" [(ngModel)]="nombreUsuario" class="form-control" id="exampleFormControlInput1" placeholder="user">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" style="font-family: 'Fredoka One', cursive; font-size:20px" class="form-label">Contraseña</label>
+                            <input style="background-color:beige" type="password" [(ngModel)]="passwordUsuario" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                        </div>
+    
+                        <a (click)="Login()" class="btn btn-primary">Ingresar</a>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="imagen1">
+        <img class="col-sm-2" src="https://wradio.com.mx/radio/imagenes/2016/09/08/album/1473363884_661564_1473364030_album_normal.jpg" alt="hay un gato">
+    </div>
+    
+</body>
+
+

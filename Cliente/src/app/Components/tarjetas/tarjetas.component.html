@@ -1,0 +1,21 @@
+
+<body>
+    <link rel="stylesheet" href="tarjetas.component.css">
+    <div class="container col-sm-18 " style="background-color: black;">
+        <div class="card" style="width: 18rem;" style="background-color:black; border-radius: 20px;">
+            <img src="{{datoJugadorEspecifico.imagen}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <div class="titulo">
+                    <h5 class="card-title">{{datoJugadorEspecifico.nombre}} {{datoJugadorEspecifico.apellido}}</h5>
+                </div>
+                    <h4>Selección:</h4> <p style="color:turquoise ;" class="card-text">{{datoJugadorEspecifico.seleccion}}</p>
+                
+                    <hr style="color: white; text-decoration-thickness: 10px;">
+                    
+                    <h4>Región:</h4>
+                    <p style="color:turquoise;" class="card-text">  {{datoJugadorEspecifico.region}}</p>
+            </div>
+        </div>
+    </div>
+    
+</body>

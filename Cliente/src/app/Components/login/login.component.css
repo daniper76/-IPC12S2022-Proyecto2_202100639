@@ -1,0 +1,24 @@
+span{
+    text-shadow: 0 0 5px gold, 0 0 15px gold, 0 0 30px gold, 0 0 50px gold;
+
+}
+
+
+.container{
+    
+    background-color:transparent;
+}
+
+.imagen1{
+    padding: 30px 40px 40px 90px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-watch-the-world-cup-together-with-the-carnival-color-literary-banner-image_193945.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+

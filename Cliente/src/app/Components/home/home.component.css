@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://fondosmil.com/fondo/31298.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    color: black;
+    text-shadow: 0 0 5px chartreuse, 0 0 15px chartreuse, 0 0 30px chartreuse, 0 0 50px chartreuse;
+    float:left;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}

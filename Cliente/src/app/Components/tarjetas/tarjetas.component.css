@@ -1,0 +1,24 @@
+h5{
+    font-size: 35px;
+    color:black;
+    text-shadow: 0 0 1px gold, 0 0 2px gold, 0 0 3px gold, 0 0 5px gold;
+    text-align: center;
+    
+}
+
+
+
+.container{
+    border: 2.5px solid white;
+    box-shadow: inset 0 0 11px blue, 0 0 21px blue;
+    border-radius: 20px;
+}
+
+h4{
+    color: red;
+    font-size: 20px;
+}
+
+p{
+    font-size: 18px;
+}

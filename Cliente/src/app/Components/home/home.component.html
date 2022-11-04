@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="home.component.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <app-navigation></app-navigation>
+    <span class="badge bg-info" style="float:left; font-size: 30px;">Usuario:</span> <h1>{{usuario.usuario}}</h1>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="mt-5 col-sm-4" *ngFor="let dato of datosJugadores">
+                <app-tarjetas [datoJugadorEspecifico]="dato"></app-tarjetas>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
