@@ -46,6 +46,12 @@ Para la realización del frontend se utilizo la tecnología de Angular, por medi
 
 [![c3.jpg](https://i.postimg.cc/yxdhYf5s/c3.jpg)](https://postimg.cc/zbsHxk8c)
 
++ Para buscar a una selección, a un jugador o a los jugadores de una región. Introducir la palabra clave de lo que desea buscar en la barra de busqueda y luego oprima el botón correspondiente a la clase de busqueda que desea hacer. Ejemplo:
+ - Nombre del Jugador: Jack.
+ - Oprimir el botón Nombre.
+ 
+ [![2022-11-05-1.png](https://i.postimg.cc/nVyrqWtL/2022-11-05-1.png)](https://postimg.cc/3WZ3TnNM)
+
 + Para salir de la aplicación se debe oprimir el botón que tiene la leyenda "Log out".
 
 [![c4.jpg](https://i.postimg.cc/tTftrKDw/c4.jpg)](https://postimg.cc/S26MRtBf)
