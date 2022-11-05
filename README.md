@@ -44,13 +44,15 @@ Para la realización del frontend se utilizo la tecnología de Angular, por medi
 
 + Una vez dentro de la aplicación se desplegaran las diferentes tarjetas de los jugadores con sus datos e imagen, para ver más imagenes solo deslice hacia abajo.
 
-[![c3.jpg](https://i.postimg.cc/yxdhYf5s/c3.jpg)](https://postimg.cc/zbsHxk8c)
+[![c4.jpg](https://i.postimg.cc/Jzp57XsZ/c4.jpg)](https://postimg.cc/DSbXB8dw)
 
 + Para buscar a una selección, a un jugador o a los jugadores de una región. Introducir la palabra clave de lo que desea buscar en la barra de busqueda y luego oprima el botón correspondiente a la clase de busqueda que desea hacer. Ejemplo:
   - Nombre del Jugador: Jack.
   - Oprimir el botón Nombre.
+  
+  [![c5.jpg](https://i.postimg.cc/tgFzF4D4/c5.jpg)](https://postimg.cc/mc2MsR0v)
  
- [![2022-11-05-1.png](https://i.postimg.cc/nVyrqWtL/2022-11-05-1.png)](https://postimg.cc/3WZ3TnNM)
+
 
 + Para salir de la aplicación se debe oprimir el botón que tiene la leyenda "Log out".
 
