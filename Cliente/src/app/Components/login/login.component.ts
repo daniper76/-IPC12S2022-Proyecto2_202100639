@@ -41,7 +41,7 @@ export class LoginComponent implements OnInit {
       }
     }else{
 
-        if( this.nombreUsuario=="" || this.passwordUsuario==""){
+        if( this.nombreUsuario=="" && this.passwordUsuario==""){
           alert("Contraseña o Usurario Equivocada");
         }else{
 

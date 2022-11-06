@@ -48,7 +48,7 @@ const todoscracks = [
         apellido: "Jr",
         seleccion: "Brasil",
         region: "conmebol",
-        imagen: "https://www.futbolred.com/files/article_main/uploads/2018/07/04/5b3d476e6da3f.jpeg"
+        imagen: "https://cdn.sofifa.net/players/190/871/23_120.png"
     },
     {
         id: 7,

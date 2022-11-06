@@ -10,6 +10,13 @@
 <body>
     <app-navigation></app-navigation>
     <span class="badge bg-info" style="float:left; font-size: 30px;">Usuario:</span> <h1>{{usuario.usuario}}</h1>
+    <form class="d-flex" role="search">
+        <input  style="background-color:beige; size: 100px;" type="text" [(ngModel)]="opcion" name="opcion" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese la palabra clave">
+        <button class="btn btn-outline-success" class="btn btn-primary" (click)=" ObtenerJugadoresAll()">Todos</button>
+        <button class="btn btn-outline-success" class="btn btn-primary" (click)=" ObtenerJugadoresSeleccion()" >Seleccion</button>
+        <button class="btn btn-outline-success" class="btn btn-primary" (click)=" ObtenerJugadoresRegion()">Region</button>
+        <button class="btn btn-outline-success" class="btn btn-primary" (click)=" ObtenerJugadoresNombre()">Nombre</button>
+    </form>
     <br>
     <br>
     <div class="container">
